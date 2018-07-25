@@ -8,6 +8,7 @@ steam.styles
     //MY COLORS
     MainBG="23 26 33 255"
     scrollbar_bg="0 0 0 0"
+    scrollbar_handle="98 108 119 120"
 
 
 
@@ -269,7 +270,7 @@ steam.styles
     RichText.InsetX         8
     RichText.InsetY         7
 
-    ScrollBar.Wide          19
+    ScrollBar.Wide          12
 
     SectionedListPanel.CollapserWidth   16
 
@@ -2125,97 +2126,12 @@ steam.styles
 		inset="0 0 0 0"
 	}
 
-    ScrollBarButton.up
+    ScrollBarButton
     {
 		bgcolor=none
-		inset="-1 2 0 0"
-		image="graphics/icon_up_default"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 + 3, x1 - 4, y1 + 2, buttonface )"
-		}
+    render_bg
+      { }
 
-    }
-
-    ScrollBarButton.up:hover
-    {
-		bgcolor=none
-		inset="-1 2 0 0"
-		image="graphics/icon_up_hover"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 + 3, x1 - 4, y1 + 2, buttonfaceActive )"
-		}
-    }
-
-    ScrollBarButton.up:active
-    {
-		inset="-1 2 0 0"
-		image="graphics/icon_up_hover"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 + 3, x1 - 4, y1 + 2, buttonfaceActive )"
-		}
-    }
-
-    ScrollBarButton.up:disabled
-    {
-		inset="-1 2 0 0"
-		image="graphics/icon_up_disabled"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 + 3, x1 - 4, y1 + 2, buttonfaceDisabled )"
-		}
-    }
-
-    ScrollBarButton.down
-	{
-		bgcolor=none
-		inset="-2 0 0 0"
-		image="graphics/icon_down_default"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 - 1, x1 - 4, y1 - 3, buttonface )"
-		}
-    }
-
-    ScrollBarButton.down:hover
-		{
-		inset="-2 0 0 0"
-		image="graphics/icon_down_hover"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 - 1, x1 - 4, y1 - 3, buttonfaceActive )"
-		}
-    }
-
-    ScrollBarButton.down:active
-		{
-		inset="-2 0 0 0"
-		image="graphics/icon_down_hover"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 - 1, x1 - 4, y1 - 3, buttonfaceActive )"
-		}
-    }
-
-
-     ScrollBarButton.down:disabled
-		{
-		inset="-2 0 0 0"
-		image="graphics/icon_down_hover"
-		render_bg
-		{
-			// background fill
-			0="fill( x0 + 2, y0 - 1, x1 - 4, y1 - 3, buttonfaceDisabled )"
-		}
     }
 
     ScrollBarButton.left
@@ -2272,7 +2188,7 @@ steam.styles
 		render_bg
 		{
 			// center fill
-			0="fill( x0 + 2, y0 + 6, x1 - 4, y1 - 5, ButtonFace )"
+			0="fill( x0 + 2, y0 + 6, x1 - 4, y1 - 5, scrollbar_handle)"
 		}
     }
 
