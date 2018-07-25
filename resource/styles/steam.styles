@@ -5,6 +5,12 @@ steam.styles
     // colors section can include colors in "R G B A" form, or references to already defined colors;
     // it can also include just general settings controls can pull from for extra customization
 
+    //MY COLORS
+    MainBG="23 26 33 255"
+
+
+
+    //STEAM COLORS
     black="0 0 0 255"
     dark="28 33 42 255"
     almostBlack="22 25 28 255"
