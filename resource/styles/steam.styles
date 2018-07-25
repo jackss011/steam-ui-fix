@@ -376,18 +376,9 @@ steam.styles
 			render_bg
 			{
 				// background fill
-				0="gradient( x0, y0, x1, y1, buttonface2, propertysheetbg )"
+				0="fill( x0, y0, x1, y1, buttonface2 )"
 			}
 	  }
-
-    "Page Button"
-    {
-		render_bg
-		{
-			// background fill
-			0="gradient( x0, y0, x1, y1, buttonface2, propertysheetbg )"
-		}
-    }
 
 	Button:hover
     {
@@ -395,17 +386,7 @@ steam.styles
   		render_bg
       {
         // background fill
-        0="gradient( x0, y0, x1, y1, buttonfaceactive, propertysheetbg )"
-      }
-    }
-
-    "Page Button:hover"
-    {
-      textcolor="TextHover"
-      render_bg
-      {
-        // background fill
-        0="gradient( x0, y0, x1, y1, buttonfaceactive, propertysheetbg )"
+        0="fill( x0, y0, x1, y1, buttonfaceactive )"
       }
     }
 
@@ -414,18 +395,10 @@ steam.styles
 			textcolor="TextHover"
 			render_bg
 	      {
-	        0="gradient( x0, y0, x1, y1, buttonfacefocus, propertysheetbg )"
+	        0="fill( x0, y0, x1, y1, buttonfacefocus)"
 	      }
     }
 
-    "Page Button:focus"
-    {
-      textcolor="TextHover"
-      render_bg
-      {
-        0="gradient( x0, y0, x1, y1,  buttonfacefocus, propertysheetbg )"
-      }
-    }
 
     Button:active // this is the left-mouse-currently-pressed state
 		{
@@ -433,19 +406,10 @@ steam.styles
        render_bg
       {
         // background fill
-        0="gradient( x0, y0, x1, y1, DialogBG, propertysheetbg )"
+        0="fill( x0, y0, x1, y1, DialogBG )"
       }
     }
 
-    "Page Button:active"
-    {
-       textcolor="TextHover"
-       render_bg
-      {
-        // background fill
-        0="gradient( x0, y0, x1, y1, DialogBG, propertysheetbg )"
-      }
-    }
 
     Button:selected
     {
@@ -453,17 +417,7 @@ steam.styles
       render_bg
       {
         // background fill
-        0="gradient( x0, y0, x1, y1, buttonfaceactivefocus, propertysheetbg )"
-      }
-    }
-
-    "Page Button:selected"
-    {
-      textcolor="TextHover"
-      render_bg
-      {
-        // background fill
-        0="gradient( x0, y0, x1, y1, buttonfaceactivefocus, propertysheetbg )"
+        0="fill( x0, y0, x1, y1, buttonfaceactivefocus )"
       }
     }
 
@@ -473,19 +427,10 @@ steam.styles
       render_bg
       {
         // background fill
-        0="gradient( x0, y0, x1, y1, buttonfacedisabled, buttonfacedisabled )"
+        0="fill( x0, y0, x1, y1, buttonfacedisabled )"
       }
     }
 
-    "Page Button:disabled"
-    {
-			textcolor="LabelDisabled"
-      render_bg
-      {
-				// background fill
-        0="gradient( x0, y0, x1, y1, buttonfacedisabled, buttonfacedisabled )"
-      }
-    }
 
     CFriendsListSectionAffordance
     {
