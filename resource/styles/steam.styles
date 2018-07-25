@@ -815,15 +815,13 @@ steam.styles
       }
     }
 
+    // BORDERS
     Frame
     {
     bgcolor="DialogBG"
       render
       {
-        0="gradient_horizontal( x0, y1 - 1, x1 + 1, y1, ClientBG, focus )"
-        1="gradient( x1 - 1, y0, x1, y1, ClientBG, focus )"
-        2="gradient_horizontal( x0, y0, x1, y0 + 1, focus0, ClientBG )"
-        3="gradient( x0, y0, x0 + 1, y1, focus0, ClientBG )"
+      
       }
     }
 
@@ -832,10 +830,7 @@ steam.styles
     bgcolor="DialogBG"
       render
       {
-        0="gradient_horizontal( x0, y1 - 1, x1 + 1, y1, ClientBG, black )"
-        1="gradient( x1 - 1, y0, x1, y1, ClientBG, black )"
-        2="gradient_horizontal( x0, y0, x1, y0 + 1, focus, ClientBG )"
-        3="gradient( x0, y0, x0 + 1, y1, focus, ClientBG )"
+
       }
     }
 
