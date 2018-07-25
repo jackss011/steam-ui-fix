@@ -821,7 +821,7 @@ steam.styles
     bgcolor="DialogBG"
       render
       {
-      
+
       }
     }
 
@@ -2267,7 +2267,7 @@ steam.styles
     ScrollBarHandle  //vertical scrollbar thumb
     {
 		bgcolor=none
-		image="graphics/icon_scroll_handle"
+		// image="graphics/icon_scroll_handle"
 		render_bg
 		{
 			// center fill
@@ -2277,7 +2277,7 @@ steam.styles
 
     "ScrollBarHandle:hover"
     {
-		image="graphics/icon_scroll_handle_over"
+		// image="graphics/icon_scroll_handle_over"
 		render_bg
 		{
 			// center fill
@@ -2287,7 +2287,7 @@ steam.styles
 
     "ScrollBarHandle:active"
     {
-		image="graphics/icon_scroll_handle_over"
+		// image="graphics/icon_scroll_handle_over"
 		render_bg
 		{
 			// center fill
