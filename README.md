@@ -24,4 +24,4 @@ The directory should look like this
   - (other steam folders and files)
   
 ### Step 3: Select the skin inside Steam
-Go to `Settings > Interface` and in the Skin dropdown list select `Steam.UI.Fix`. Restart Steam.
+Go to `Steam > Settings > Interface` and in the skin dropdown list select `Steam.UI.Fix`. Restart Steam.
