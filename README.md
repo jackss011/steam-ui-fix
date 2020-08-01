@@ -2,7 +2,7 @@
 
 Steam UI skin that replaces home page's bluish gradient with a dark grey plain color
 
-![Preview Screentshot](/preview.png?raw=true "Optional Title")
+![Preview Screentshot](/home_preview.png?raw=true "Optional Title")
 
 ## How to install
 
