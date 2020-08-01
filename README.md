@@ -1,6 +1,6 @@
 # Steam UI Fix
 
-Steam UI skin that replaces home page's blueish gradient whit a plain dark grey
+Steam UI skin that replaces home page's bluish gradient with a dark grey plain color
 
 ![Preview Screentshot](/preview.png?raw=true "Optional Title")
 
